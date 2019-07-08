@@ -142,7 +142,6 @@ atlasToimage<-function(atlas, affineX, affineY, downsmpX, downsmpY, translateX, 
   }
   
 
-  browser()
   ventricles <-c(which(EPSatlas$plate.info[[k]]$style=='#aaaaaa')) #117 is optic chiasm och   which(EPSatlas$plate.info[[k]]$structure_id== 117)
   if(atlasIndex$plate.id[k] %in%c(100960309, 100960312, 100960316, 100960320)){
     fibertracts<-c(which(EPSatlas$plate.info[[k]]$style=='#cccccc'))
