@@ -1,22 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hana777 
-0
-0 0 kwaaksnavel/partbrain Private
- Code  Issues 0  Pull requests 0  Projects 0  Security  Insights
-partbrain/R/registration.R
-@kwaaksnavel kwaaksnavel Update registration.R
-ed56f1c 38 minutes ago
-@tractatus @kwaaksnavel @mjin1812
-1657 lines (1329 sloc)  69.9 KB
-    
 data(EPSatlas, envir=environment())
 data(SAGITTALatlas, envir=environment())
 
@@ -1673,15 +1655,4 @@ testregistration<-function(input, brain.threshold = 200, verbose=TRUE){
   threshold<-brain.threshold
   .Call("ThinPlateRegistration", file, as.integer(threshold), as.integer(verbose))
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
