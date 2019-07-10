@@ -748,10 +748,10 @@ glassbrain<-function(dataset, high.res=FALSE, dim=c(720,1080), device=TRUE, col=
 	}
 
     if(plane=='coronal'){
-        smp.AP<- rnorm(length(dataset$AP), 0,(320/9.75)*0.2 )
+        smp.AP<- rnorm(length(dataset$AP), 0, 0.01)
             smp.ML<-0
         }else{
-            smp.ML<- rnorm(length(dataset$AP), 0,(320/9.75)*0.2 )
+            smp.ML<- rnorm(length(dataset$AP), 0, 0.01)
             smp.AP<-0
         }
 
